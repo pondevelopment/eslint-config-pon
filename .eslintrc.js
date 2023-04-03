@@ -131,27 +131,9 @@ module.exports = {
                 ]
             }
         ],
-        'no-spaced-func': 'error',
-        'no-underscore-dangle': [
-            'error',
-            {
-                'allow': [],
-                'allowAfterThis': false,
-                'allowAfterSuper': false,
-                'enforceInMethodNames': true
-            }
-        ],
-        'quotes': [
-            'error',
-            'single',
-            {
-                'avoidEscape': true,
-                'allowTemplateLiterals': true
-            }
-        ],
         'radix': 'error',
         'import/prefer-default-export': 'off',
-        'import/no-unresolved': [ // check if we can use it with typescript, also check if we can use n/no-missing-import
+        'import/no-unresolved': [
             'error',
             {
                 'caseSensitive': true
@@ -173,7 +155,6 @@ module.exports = {
                 ]
             }
         ],
-        'import/newline-after-import': 'error',
         'import/no-self-import': 'error',
         'import/no-cycle': [
             'error',
@@ -231,27 +212,6 @@ module.exports = {
         'prefer-spread': 'error',
         'prefer-template': 'error',
         'require-yield': 'error',
-        'function-paren-newline': [
-            'error',
-            'consistent'
-        ],
-        'implicit-arrow-linebreak': [
-            'error',
-            'beside'
-        ],
-        'newline-per-chained-call': [
-            'error',
-            {
-                'ignoreChainWithDepth': 4
-            }
-        ],
-        'nonblock-statement-body-position': [
-            'error',
-            'beside',
-            {
-                'overrides': {}
-            }
-        ],
         'operator-assignment': [
             'error',
             'always'

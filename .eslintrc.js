@@ -3,7 +3,8 @@ module.exports = {
     'extends': [
         'plugin:import/recommended',
         'plugin:n/recommended',
-        'plugin:jsdoc/recommended'
+        'plugin:jsdoc/recommended',
+        'plugin:sonarjs/recommended'
     ],
     'parserOptions': {
         'sourceType': 'module',

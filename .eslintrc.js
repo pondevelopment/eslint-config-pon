@@ -106,18 +106,6 @@ module.exports = {
         ],
         'no-useless-concat': 'error',
         'no-nested-ternary': 'error',
-        'max-len': [
-            'error',
-            {
-                'code': 120,
-                'comments': 120,
-                'tabWidth': 4,
-                'ignoreUrls': true,
-                'ignoreRegExpLiterals': true,
-                'ignoreStrings': true,
-                'ignoreTemplateLiterals': true
-            }
-        ],
         'no-shadow': [
             'error',
             {

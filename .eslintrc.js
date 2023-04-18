@@ -227,7 +227,7 @@ module.exports = {
         'jsdoc/implements-on-classes': 'error',
         'jsdoc/match-description': 'off',
         'jsdoc/multiline-blocks': 'error',
-        'jsdoc/newline-after-description': 'error',
+        'jsdoc/tag-lines': 'error',
         'jsdoc/no-bad-blocks': 'off',
         'jsdoc/no-defaults': 'off',
         'jsdoc/no-missing-syntax': 'off',

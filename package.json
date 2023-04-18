@@ -1,6 +1,6 @@
 {
     "name": "@pondevelopment/eslint-config-pon",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Eslint config with PON code quality checks",
     "keywords": [
         "eslint",
@@ -24,7 +24,7 @@
     "peerDependencies": {
         "eslint": "^8.23.0",
         "eslint-plugin-import": "^2.26.0",
-        "eslint-plugin-jsdoc": "^40.0.0",
+        "eslint-plugin-jsdoc": "^43.0.0",
         "eslint-plugin-n": "^15.2.5",
         "eslint-plugin-promise": "^6.0.1",
         "eslint-plugin-sonarjs": "^0.19.0"
@@ -32,7 +32,7 @@
     "devDependencies": {
         "eslint": "^8.23.0",
         "eslint-plugin-import": "^2.26.0",
-        "eslint-plugin-jsdoc": "^40.0.0",
+        "eslint-plugin-jsdoc": "^43.0.0",
         "eslint-plugin-n": "^15.2.5",
         "eslint-plugin-promise": "^6.0.1",
         "eslint-plugin-sonarjs": "^0.19.0"
